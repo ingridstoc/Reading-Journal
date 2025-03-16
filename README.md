@@ -34,10 +34,10 @@ Ensure you have the following installed:
 
 ### Steps
 1. Set up the database in PhpMyAdmin:
-   ```bash
+```bash
 CREATE DATABASE reading_journal;
 ```
-3. Configure database connection in application.properties:
+2. Configure database connection in application.properties:
 ```bash
 spring.application.name=reading-journal
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
@@ -48,7 +48,7 @@ spring.datasource.password=
 spring.jpa.show-sql=true
 spring.jpa.hibernate.ddl-auto=update
 ```
-4. Access the application at http://localhost:8080
+3. Access the application at http://localhost:8080
 
 ## API Testing with Postman
 
